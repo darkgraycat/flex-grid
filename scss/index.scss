@@ -1,0 +1,69 @@
+@import 'flex-grid.scss';
+
+
+// demo styles
+.bg {
+  &-red {
+    background-color: #f88;
+  }
+  &-green {
+    background-color: #8f8;
+  }
+  &-blue {
+    background-color: #88f;
+  }
+  &-yellow {
+    background-color: #ff8;
+  }
+  &-teal {
+    background-color: #8ff;
+  }
+  &-purple {
+    background-color: #f8f;
+  }
+  &-dred {
+    background-color: #d44;
+  }
+  &-dgreen {
+    background-color: #4d4;
+  }
+  &-dblue {
+    background-color: #44d;
+  }
+  &-white {
+    background-color: #fff;
+  }
+  &-gray {
+    background-color: #888;
+  }
+  &-black {
+    background-color: #444;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.row {
+  padding: 0;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.child-bordered > * {
+  background-color: #444;
+  border: 2px solid #ff8;
+  color: #f8f;
+  text-align: center;
+  min-height: 100px;
+}

@@ -1,0 +1,60 @@
+$breakpoint-sm: "max-width: 767px";
+$breakpoint-md: "max-width: 1023px";
+$breakpoint-lg: "min-width: 1024px";
+
+@mixin column($n) {
+  flex: 0 1 (100% / 12 * $n);
+}
+
+@mixin mq_column($n, $br) {
+  @media ($br) {
+    @include column($n);
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  &-12 { @include column(12); }
+  &-9 { @include column(9); }
+  &-8 { @include column(8); }
+  &-6 { @include column(6); }
+  &-4 { @include column(4); }
+  &-3 { @include column(3); }
+  &-2 { @include column(2); }
+  &-1 { @include column(1); }
+  &-lg {
+    &-12 { @include mq_column(12, $breakpoint-lg); }
+    &-9 { @include mq_column(9, $breakpoint-lg); }
+    &-8 { @include mq_column(8, $breakpoint-lg); }
+    &-6 { @include mq_column(6, $breakpoint-lg); }
+    &-4 { @include mq_column(4, $breakpoint-lg); }
+    &-3 { @include mq_column(3, $breakpoint-lg); }
+    &-2 { @include mq_column(2, $breakpoint-lg); }
+    &-1 { @include mq_column(1, $breakpoint-lg); }
+  }
+  &-md {
+    &-12 { @include mq_column(12, $breakpoint-md); }
+    &-9 { @include mq_column(9, $breakpoint-md); }
+    &-8 { @include mq_column(8, $breakpoint-md); }
+    &-6 { @include mq_column(6, $breakpoint-md); }
+    &-4 { @include mq_column(4, $breakpoint-md); }
+    &-3 { @include mq_column(3, $breakpoint-md); }
+    &-2 { @include mq_column(2, $breakpoint-md); }
+    &-1 { @include mq_column(1, $breakpoint-md); }
+  }
+  &-sm {
+    &-12 { @include mq_column(12, $breakpoint-sm); }
+    &-9 { @include mq_column(9, $breakpoint-sm); }
+    &-8 { @include mq_column(8, $breakpoint-sm); }
+    &-6 { @include mq_column(6, $breakpoint-sm); }
+    &-4 { @include mq_column(4, $breakpoint-sm); }
+    &-3 { @include mq_column(3, $breakpoint-sm); }
+    &-2 { @include mq_column(2, $breakpoint-sm); }
+    &-1 { @include mq_column(1, $breakpoint-sm); }
+  }
+}
