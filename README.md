@@ -1,6 +1,11 @@
 # 12 column flex grid
 
-## Instalation
+## SASS
+download file [download]( https://raw.githubusercontent.com/darkgraycat/flex-grid/main/scss/flex-grid.scss )
+
+
+
+## CSS
 1. copy to your `<head>` block
 ```
   <link rel="stylesheet" href="https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.css">
