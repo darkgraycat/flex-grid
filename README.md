@@ -8,7 +8,7 @@
 
 or
 
-2. download file `https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.css`
+2. download file [download]( https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.css )
 
 
 ## Minified
@@ -16,4 +16,5 @@ or
 <link rel="stylesheet" href="https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.min.css">
 ```
 
-`https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.min.css`
+[download]( https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.min.css )
+
