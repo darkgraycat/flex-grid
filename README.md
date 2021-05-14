@@ -1,4 +1,19 @@
 # 12 column flex grid
 
 ## Instalation
-1. 
+1. copy to your `<head>` block
+```
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.css">
+```
+
+or
+
+2. download file `https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.css`
+
+
+## Minified
+```
+<link rel="stylesheet" href="https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.min.css">
+```
+
+`https://raw.githubusercontent.com/darkgraycat/flex-grid/main/release/flex-grid.min.css`
